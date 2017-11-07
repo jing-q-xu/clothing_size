@@ -10,7 +10,7 @@ from data_loader import load_config_files
 
 if __name__ == '__main__': 
     try:
-        load_config_files('../data')
+        load_config_files()
         print (convert_size("women top", "国际", "意大利", "XXS")) 
         print (convert_size("women top", "国际", "英国", "XXS")) 
         print (convert_size("women top", "国际", "丹麦", "XXS"))
